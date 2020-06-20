@@ -1,0 +1,100 @@
+
+
+.mr-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+body::before{
+    content: '';
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;        
+    background: var(--color-darkblue);
+    background-image: 
+        linear-gradient(
+        90deg,
+        rgba(58, 58, 158, 0.8),
+        rgba(136, 136, 206, 0.7)),
+        url(https://raw.githubusercontent.com/lasjorg/fcc-form-example-image/master/67103817-7c51e200-f18b-11e9-975f-f74561336a9a-lj.jpg);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-p{
+    font-style: italic;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px black;
+    font-size: 18px;
+}
+.main-form{
+    max-width: 720px;
+    background: rgba(27, 27, 50, 0.8);
+    border-radius: 5px;
+    text-align: left;
+    padding: 40px;
+    color:aliceblue;
+
+}
+.header{
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.improve {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+span{
+    font-size: 13px;
+}
+.input{
+    width: 100%;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 7px;
+    border: none; 
+    margin-bottom: 30px;
+    color:#495057;
+    height: 35px;
+}
+label{
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+.btn {
+    background-color: #37AF65;
+    color:inherit;
+    width: 100%;
+    border-radius: 5px;
+    padding: 7px;
+    margin-bottom: 20px;
+    height: 40px;
+    font-size: inherit;
+}
+.btn:hover{
+    background-color: #206d3d;
+    color: white;
+    
+}
+    
+
+.radio{
+    margin-right: 5px;
+    
+}
+.comments{
+    width: 100%;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 7px;
+    border: none;
+    margin-bottom: 30px;
+    color:#495057;
+    height: 120px;
+
+}
